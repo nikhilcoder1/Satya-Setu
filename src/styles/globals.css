@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply font-mono bg-black text-green-400;
+  }
+  a {
+    @apply text-green-400 hover:text-green-200;
+  }
+}
